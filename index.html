@@ -18,7 +18,10 @@
     background: #f4f4f4;
   }
 .top-hero {
-  background-color: #f6f6f1;
+  background: url('img/bg2.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment:full 500px;
+  min-height: 500px;
   padding: 30px 20px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -102,8 +105,9 @@
 
 .hero-image {
   position: relative;
-  background: url('img/your-living-room.jpg') no-repeat center center;
+    background: url('img/bg1.jpg') no-repeat center center;
   background-size: cover;
+  background-attachment: scroll;
   height: 450px;
   display: flex;
   justify-content: center;
@@ -454,16 +458,16 @@
 
   <div class="top-hero">
     <div class="logo-section">
-      <img src="img/home-icon.png" alt="Home Icon">
+      <img src="img/house.png" alt="Home Icon">
       <div class="logo-text">KNOW<br>YOUR<br>DORM</div>
     </div>
 
     <div class="contact-heading">CONTACT US NOW!</div>
 
     <div class="image-trio">
-      <img src="mayao.jpg" alt="Dorm 1">
-      <img src="mayao1.jpg" alt="Dorm 2">
-      <img src="mayao3.jpg" alt="Dorm 3">
+      <img src="img/dorm1.jpg" alt="Dorm 1">
+      <img src="img/dorm2.jpg" alt="Dorm 2">
+      <img src="img/dorm3.jpg" alt="Dorm 3">
     </div>
 
     <div class="tagline-box">
@@ -501,8 +505,8 @@
   const homes = [
   {
     title: 'Mayao Crossing - St. Jude Village',
-    cover: 'mayao.jpg',
-    images: ['mayao1.jpg', 'mayao2.jpg', 'mayao3.jpg', 'mayao4.jpg'],
+    cover: 'img/mayao.jpg',
+    images: ['img/mayao1.jpg', 'img/mayao2.jpg', 'img/mayao3.jpg', 'img/mayao4.jpg'],
     address: 'Quezon, Lucena City, Brgy. Mayao Crossing St.Jude Village (near SM, Satellite Market and MMG Hospital)',
     rooms: '2 bedrooms, good for 2 - 4 persons (with free furnitures)',
     price: '8,500 pesos monthly',
